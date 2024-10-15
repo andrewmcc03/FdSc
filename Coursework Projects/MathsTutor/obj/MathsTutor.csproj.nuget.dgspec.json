@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Backups\\All NRC (E drive)\\FD in Computing\\Year 2\\Semester 1\\Software Project Development\\Visual Studio\\Coursework\\Coursework 1\\MathsTutor\\MathsTutor.csproj": {}
+  },
+  "projects": {
+    "E:\\Backups\\All NRC (E drive)\\FD in Computing\\Year 2\\Semester 1\\Software Project Development\\Visual Studio\\Coursework\\Coursework 1\\MathsTutor\\MathsTutor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Backups\\All NRC (E drive)\\FD in Computing\\Year 2\\Semester 1\\Software Project Development\\Visual Studio\\Coursework\\Coursework 1\\MathsTutor\\MathsTutor.csproj",
+        "projectName": "MathsTutor",
+        "projectPath": "E:\\Backups\\All NRC (E drive)\\FD in Computing\\Year 2\\Semester 1\\Software Project Development\\Visual Studio\\Coursework\\Coursework 1\\MathsTutor\\MathsTutor.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "E:\\Backups\\All NRC (E drive)\\FD in Computing\\Year 2\\Semester 1\\Software Project Development\\Visual Studio\\Coursework\\Coursework 1\\MathsTutor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

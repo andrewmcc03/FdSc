@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MathsTutor
+{
+    abstract class Area2D : Area1D
+    {
+        // Defined new variable
+        private double dimension2;
+
+        // Constructor
+        public Area2D(string newDescription, double newDimension1, double newDimension2)
+            : base(newDescription, newDimension1)
+        {
+            dimension2 = newDimension2;
+        }
+
+        public void setDimension2(double newDimension)
+        {
+            dimension2 = newDimension;
+        }
+
+        public double getDimension2()
+        {
+            return dimension2;
+        }
+    }
+}
