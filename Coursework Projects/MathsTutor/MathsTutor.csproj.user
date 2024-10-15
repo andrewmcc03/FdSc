@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Area\AreaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area and Volume Quizzes\AreaQuizForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area\Area Shapes\CircleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area and Volume Quizzes\VolumeQuizForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Volume\Volume Shapes\CubeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Volume\Volume Shapes\CuboidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Volume\Volume Shapes\PyramidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area\Area Shapes\RectangleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Volume\Volume Shapes\SphereForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area\Area Shapes\SquareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Area\Area Shapes\TriangleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Volume\VolumeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
