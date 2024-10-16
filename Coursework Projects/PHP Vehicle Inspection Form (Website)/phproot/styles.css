@@ -1,0 +1,157 @@
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header, .navigation, .footer
+{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.header, .navigation, .footer
+{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: #0b577d;
+    color: azure;
+}
+
+.navigation
+{
+    background-color: #333;
+    color: rgb(0, 0, 0);
+}
+
+.footer
+{
+    background-color: rgb(113, 113, 113);
+    color: azure;
+}
+
+.form
+{
+    display: table;
+    margin: auto;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/* CSS for the table layout */
+
+table
+{
+    background-color: rgb(138, 184, 211);
+}
+
+th
+{
+    padding: 10px;
+    background-color: rgb(58, 137, 202);
+    border: 1px solid #000000;
+}
+
+td
+{
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+/*
+    Imported CSS from w3 
+    Reference: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+*/
+
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a
+{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown
+{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn
+{
+    background-color: rgb(120, 120, 120);
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+/* END OF Imported CSS from w3 */
+
